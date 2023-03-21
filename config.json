@@ -1,0 +1,24 @@
+{
+    "apps": [
+        {
+            "name": "Candy Crush Saga",
+            "icon": "images/candy.webp",
+            "description": "Master the legendary match 3 puzzle game from King! With over a trillion matching levels played, Candy Crush Saga is the popular match 3 puzzle game.",
+            "appStoreLink": "https://example.com/sample-app-store-link"
+        },
+        {
+            "name": "Candy Soda Saga",
+            "icon": "images/soda.webp",
+            "description": "You loved playing Candy Crush Saga - Start playing Candy Crush Soda Saga! More divine matching combinations and challenging game modes, brimming with purple soda and fun!",
+            "appStoreLink": "https://example.com/sample-app-store-link",
+            "googleLink": "https://example.com/sample-app-store-link"
+        },
+        {
+            "name": "Farm Heroes Saga",
+            "icon": "images/farm.webp",
+            "description": "Farming has never been so fun! Jump into a farmtastic adventure: match and collect the cute Cropsies across the farm to solve the match 3 puzzles! Go from puzzle to puzzle, matching fruit and plants, and level up to save the farm from Rancid the Raccoon. Join forces with the Farm Heroes to swap, match, and collect Cropsies. Ready to defend the Farm Lands?",
+            "appStoreLink": "https://example.com/sample-app-store-link"
+        }
+
+    ]
+}

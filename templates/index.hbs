@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>App List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    {{> navbar}}
+    {{#each apps}}
+    <div class="app">
+        <table>
+            <tr>
+                <td rowspan="2" class="icon_td">
+                    <img class="app_icon" src="{{icon}}" alt="{{name}} Icon">
+                </td>
+                <td class="app_name_td">
+                    <h2>{{name}}</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="description">
+                    {{description}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="appLink">
+                    {{#if appStoreLink}}
+                    <a href="{{appStoreLink}}">Download on AppStore</a>
+                    {{/if}}
+                    {{#if googleLink}}
+                    <a href="{{googleLink}}">Download on GooglePlay</a>
+                    {{/if}}
+                </td>
+            </tr>
+        </table>
+    </div>
+    {{/each}}
+</body>
+
+</html>
