@@ -19,3 +19,21 @@ npx tsc
 ```
 npm run start
 ```
+
+# Config Game List
+
+Modify the content of config.json
+
+```
+{
+    "apps": [
+        {
+            "name": "Candy Crush Saga",
+            "icon": "images/candy.webp",
+            "description": "Balabalala",
+            "appStoreLink": "https://example.com/sample-app-store-link"
+        },
+        ......
+    ]
+}
+```
